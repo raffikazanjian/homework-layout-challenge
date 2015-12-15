@@ -1,0 +1,61 @@
+header {
+  display: block;
+  background: red;
+  width: 100%;
+  clear: left;
+}
+
+#main {
+  float: left;
+  background: yellow;
+  width: 49%;
+  margin-right: 2%;
+}
+
+aside {
+  float: left;
+  background: green;
+  width: 49%;
+}
+
+#secondary {
+  float: left;
+  width: 100%;
+  margin: 10px 0px;	
+}
+
+#article1 {
+  float: left;
+  background: purple;
+  width: 32%;
+  margin: 10px 2% 0 0;
+}
+
+#article2 {
+  float: left;
+  background: orange;
+  width: 32%;
+  margin: 10px 2% 0 0;
+}
+
+#article3 {
+  float: left;
+  background: gray;
+  width: 32%;
+  margin: 10px 0 0 0;
+}
+
+footer {
+  float: left;
+  background: blue;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.placeholder {
+  border: 1px solid black;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  height: 150px;
+  margin: 10px;
+}

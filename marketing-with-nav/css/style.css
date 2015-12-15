@@ -1,0 +1,84 @@
+header {
+	float: left;
+	width: 100%;
+	clear: left;
+	margin-bottom: 10px;
+}
+
+aside {
+	float: left;
+	background: green;
+	width: 25%;
+	margin-right: 3%;
+}
+
+nav {
+	float: left;
+	width: 72%;
+}
+
+ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	width: 24%;
+	margin: 3.2% 0 3.2% 1%;
+	background: red;
+}
+
+#main {
+	float: left;
+	background: yellow;
+	width: 100%;
+}
+
+#secondary {
+	float: left;
+	width: 100%;
+	margin: 10px 0px;	
+}
+
+#article1 {
+	float: left;
+	background: purple;
+	width: 32%;
+	margin: 10px 2% 0 0;
+}
+
+#article2 {
+	float: left;
+	background: orange;
+	width: 32%;
+	margin: 10px 2% 0 0;
+}
+
+#article3 {
+	float: left;
+	background: gray;
+	width: 32%;
+	margin: 10px 0 0 0;
+}
+
+footer {
+	float: left;
+	background: blue;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.placeholder {
+	border: 1px solid black;
+	background: rgba(255,255,255,.6);
+	padding: 20px;
+	height: 150px;
+	margin: 10px;
+}
+
+li .placeholder {
+	height: 75px;	
+}
